@@ -1,0 +1,20 @@
+{
+  "name": "codegamers",
+  "version": "1.0.0",
+  "description": "codegamers site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin git@github.com:xuscrus/codegamers.git"
+  },
+  "scripts": {
+    "start": "live-server ./page",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "./bin/ghpages.sh page"
+  },
+  "author": "xuscrus@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
