@@ -1,5 +1,5 @@
 #!/bin/sh
-cd dist 
+cd public 
 git add --all
 git commit -m "$(git log '--format=format:%H' master -1)"
-git push origin production --force
+git push origin gh-pages --force

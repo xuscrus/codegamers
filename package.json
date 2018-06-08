@@ -11,7 +11,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "./bin/ghpages.sh public"
+    "deploy": "npm run build && ./bin/deploy.sh"
   },
   "author": "xuscrus@gmail.com",
   "license": "ISC",
