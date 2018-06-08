@@ -8,13 +8,20 @@
     "url": "git remote add origin git@github.com:xuscrus.github.io/codegamers.git"
   },
   "scripts": {
-    "start": "live-server ./page",
+    "start": "gatsby develop",
+    "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "./bin/ghpages.sh page"
+    "deploy": "./bin/ghpages.sh public"
   },
   "author": "xuscrus@gmail.com",
   "license": "ISC",
   "devDependencies": {
+    "gatsby-cli": "^1.1.58",
     "live-server": "^1.2.0"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.270",
+    "gatsby-plugin-react-helmet": "^2.0.11",
+    "react-helmet": "^5.2.0"
   }
 }
