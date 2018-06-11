@@ -11,18 +11,16 @@ export default ({ children, data }) =>
   <div style={{paddingBottom: 55}}>
     <div className="container">
       <div className="row">
-        <div className="col s12 l10 offset-l2">
-          <h2 className="bold-text">
-            <span className="blue-text">Code</span>Gamers
-          </h2>
-          <h3>Games and programing passion in one site</h3>
-        </div>
         <div className="
         col 
         s12 
         m10 offset-m1 
         l8 offset-l2
         ">
+          <h2 className="bold-text">
+            <span className="blue-text">Code</span>Gamers
+          </h2>
+          <h3>Games and programing passion in one site</h3>
           {children()}
         </div>
       </div>
