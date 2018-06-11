@@ -19,10 +19,15 @@ const style = {
   borderTop: '1px solid #bdbdbd'
 }
 
+const rsStyle = {
+  position: 'absolute',
+  right: 0
+}
+
 export default ({ github, twitter }) => (
 <nav className="grey lighten-2 " style={style}>
   <div className="nav-wrapper center">
-    <ul className="right">
+    <ul className="right" style={rsStyle}>
       <li>
         {link({
           href: `//twitter.com/${twitter}`, 
