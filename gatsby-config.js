@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `codeGamers`,
-    siteUrl: `https://new.codegamers.org`,
-    description: `code and games`,
+    title: 'CodeGamers',
+    siteUrl: 'https://new.codegamers.org',
+    description: 'gaming coding',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`
+    'gatsby-plugin-react-helmet'
   ]
 };
