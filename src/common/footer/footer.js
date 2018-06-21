@@ -43,7 +43,7 @@ export default ({ github, twitter }) => (
     </ul>
     <ul className="grey-text" style={{display: 'inline-block'}}>
       <li>
-        <span>CodeGamers {(new Date()).getFullYear()}</span>
+        <span>CodeGamers {(new Date()).getFullYear()} =D</span>
       </li>
     </ul>
   </div>
