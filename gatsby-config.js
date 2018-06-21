@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'CodeGamers',
-    siteUrl: 'https://new.codegamers.org',
+    siteUrl: 'https://codegamers.org',
     description: 'gaming coding',
   },
   plugins: [
