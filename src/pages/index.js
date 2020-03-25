@@ -25,7 +25,7 @@ export default ({data}) => {
   }
 
   return <div className="index-page">
-    <section className="hello-section grey darken-3">
+    <section className="hello-section grey darken-3 section">
       <div class="message container">
         <h3 className="bold-text white-text center-align">
           <Typewritter options={{loop: false, delay: 80}} onInit={writtingHeello}></Typewritter>

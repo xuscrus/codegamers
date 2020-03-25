@@ -6,9 +6,8 @@ import './style.css'
 
 export default ({ children, data }) =>
 {
-  const siteData = data.site.siteMetadata
-  return <Html data={siteData}>
-    {children()}
+  return <Html data={{}}>
+    {children}
 </Html>
 
 }
