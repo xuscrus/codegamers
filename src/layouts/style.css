@@ -1,4 +1,74 @@
+@import "materialize-css/dist/css/materialize.min.css";
 
 html {
-  background-color: #eeeeee
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apps-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "VT323", monospace;
+}
+
+.hello-section .message {
+  flex-grow: 1;
+}
+
+.skills-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.flex-col {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+}
+.section-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.section .title {
+}
+
+.section .section-body {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
 }

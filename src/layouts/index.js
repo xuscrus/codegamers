@@ -8,23 +8,7 @@ export default ({ children, data }) =>
 {
   const siteData = data.site.siteMetadata
   return <Html data={siteData}>
-  <div style={{paddingBottom: 55}}>
-    <div className="container">
-      <div className="row">
-        <div className="
-        col 
-        s12
-        ">
-          <h2 className="bold-text">
-            <span className="blue-text">Code</span>Gamers
-          </h2>
-          <h3>Games and programing passion in one site</h3>
-          {children()}
-        </div>
-      </div>
-    </div>
-    {footer({github: 'xuscrus', twitter: 'xuscrus'})}
-  </div>
+    {children()}
 </Html>
 
 }
